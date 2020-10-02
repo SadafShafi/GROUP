@@ -26,7 +26,7 @@ For example , we can represent the motion of objects along certain axis, we can 
   
 ### To install:
 
-**pip install ____**
+**pip install GROUPmath**
 
 ### Example:
 
@@ -35,7 +35,7 @@ Say we have a clock which only keeps track of 4 hours, so we have a set of 4 num
 
 <img src="https://github.com/SadafShafi/GROUP/blob/main/images/autodraw%2010_1_2020%20(1).png" alt="drawing" width="200"/>
 
-    >>from GROUP import Group
+    >>from GROUPmath import Groupmath as Group
     >>obj = Group([0,1,2,3],pointer=2)
     >>obj.step()
     >>3
@@ -51,7 +51,7 @@ This piece of code simulates the working of the above clock
 Now lets simulate the behaviour of the following traingle, which can rotate and stip on its axis
 <img src="https://github.com/SadafShafi/GROUP/blob/main/images/autodraw%2010_1_2020.png" alt="drawing" width="600"/>
 
-    >>from GROUP import Group
+    >>from GROUPmath import Groupmath as Group
     >>obj = Group([[1,2,3],[2,3,1],[3,1,2]],pointer=[1,2,3],[[1,3,2],[3,2,1],[2,1,3]])
     >>obj.step()   #rotate the triangle
     >>[2,3,1]

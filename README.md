@@ -1,5 +1,5 @@
 
-![GitHub Logo](/images/dedabc81-4260-491a-b121-7a9a29026704_200x200.png)
+![GitHub Logo](https://github.com/SadafShafi/GROUP/blob/main/images/dedabc81-4260-491a-b121-7a9a29026704_200x200.png)
 
 
 # GROUP

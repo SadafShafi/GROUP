@@ -31,7 +31,7 @@ Say we have a clock which only keeps track of 4 hours, so we have a set of 4 num
 <img src="https://github.com/SadafShafi/GROUP/blob/main/images/autodraw%2010_1_2020%20(1).png" alt="drawing" width="200"/>
 
     >>from GROUP import Group
-    >>obj = Group(([0,1,2,3],pointer=2))
+    >>obj = Group([0,1,2,3],pointer=2)
     >>obj.step()
     >>3
     >>(3*obj).step()  #3 steps at a time
@@ -45,3 +45,15 @@ This piece of code simulates the working of the above clock
 ## #2:
 Now lets simulate the behaviour of the following traingle, which can rotate and stip on its axis
 <img src="https://github.com/SadafShafi/GROUP/blob/main/images/autodraw%2010_1_2020.png" alt="drawing" width="600"/>
+
+    >>from GROUP import Group
+    >>obj = Group([[1,2,3],[2,3,1],[3,1,2]],pointer=[1,2,3],[[1,3,2],[3,2,1],[2,1,3]])
+    >>obj.step()   #rotate the triangle
+    >>[2,3,1]
+    >>obj.switch()  #spin the triangle
+    >>[3,2,1]
+    >>(2*obj).step() ##rotate 2 times
+    >>[1,3,2]
+    
+   
+    

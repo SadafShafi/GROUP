@@ -5,6 +5,11 @@
 # GROUP
 
 In mathematics, a group is a set equipped with a binary operation that combines any two elements to form a third element in such a way that four conditions called group axioms are satisfied, namely closure, associativity, identity and invertibility. One of the most familiar examples of a group is the set of integers together with the addition operation, but groups are encountered in numerous areas within and outside mathematics, and help focusing on essential structural aspects, by detaching them from the concrete nature of the subject of the study.
+### As a Data Structure:
+
+We can use a group as a data structure where we can have our generic set of elements on which we can have certain operations we want and get the output from the same set of elements.
+Groups are widely used in Sciences and Mathematics.
+For example , we can represent the motion of objects along certain axis, we can represent the motion and spin of electrons etc.
 
 #### Nerdy Details:
 
@@ -55,5 +60,8 @@ Now lets simulate the behaviour of the following traingle, which can rotate and 
     >>(2*obj).step() ##rotate 2 times
     >>[1,3,2]
     
-   
+  
+All the suggestions and changes are welcomed
+Since Abastract Algebra is quite vast, this data structure has a huge scope of improvement
+
     

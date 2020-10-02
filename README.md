@@ -24,3 +24,24 @@ In mathematics, a group is a set equipped with a binary operation that combines 
 **pip install ____**
 
 ### Example:
+
+## #1 :
+Say we have a clock which only keeps track of 4 hours, so we have a set of 4 numbers only and when we run any operation on our new set of numbers we can expect the output from the same set.
+
+<img src="https://github.com/SadafShafi/GROUP/blob/main/images/autodraw%2010_1_2020%20(1).png" alt="drawing" width="200"/>
+
+    >>from GROUP import Group
+    >>obj = Group(([0,1,2,3],pointer=2))
+    >>obj.step()
+    >>3
+    >>(3*obj).step()  #3 steps at a time
+    >>1
+    >>obj.step(pointer=3)
+    >>0
+ 
+This piece of code simulates the working of the above clock
+
+
+## #2:
+Now lets simulate the behaviour of the following traingle, which can rotate and stip on its axis
+<img src="https://github.com/SadafShafi/GROUP/blob/main/images/autodraw%2010_1_2020.png" alt="drawing" width="600"/>

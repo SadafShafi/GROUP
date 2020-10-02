@@ -1,4 +1,5 @@
 from multipledispatch import dispatch 
+from .GROUP import Group
 class Group():
 
     def __init__(self,List,pointer,switch_list = None):
